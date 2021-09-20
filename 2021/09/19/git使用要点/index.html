@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>git使用要点 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Git使用说明git的功能和打开方式功能： 打开方式： 常见的命令 sudo apt-get install 软件  &#x2F;&#x2F;安装软件 cd XXX  &#x2F;&#x2F;打开文件所在位置 ls    &#x2F;&#x2F;查看当前文件和文件夹 pwd   &#x2F;&#x2F;查看当前文件位置 git   上传、同步和下载上传步骤 git add &lt;filename&gt;   git commit  同步步骤     下载步骤 git clo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git使用要点">
+<meta property="og:url" content="http://qiongqionghigh.gitee.io/rookie-blog/2021/09/19/git%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Git使用说明git的功能和打开方式功能： 打开方式： 常见的命令 sudo apt-get install 软件  &#x2F;&#x2F;安装软件 cd XXX  &#x2F;&#x2F;打开文件所在位置 ls    &#x2F;&#x2F;查看当前文件和文件夹 pwd   &#x2F;&#x2F;查看当前文件位置 git   上传、同步和下载上传步骤 git add &lt;filename&gt;   git commit  同步步骤     下载步骤 git clo">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-09-19T15:45:02.000Z">
+<meta property="article:modified_time" content="2021-09-20T02:34:05.491Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/home/wq/blog/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/home/wq/blog/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/home/wq/blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/home/wq/blog/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/home/wq/blog/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/home/wq/blog/">Home</a>
+        
+          <a class="main-nav-link" href="/home/wq/blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/home/wq/blog/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://qiongqionghigh.gitee.io/rookie-blog"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-git使用要点" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/home/wq/blog/2021/09/19/git%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9/" class="article-date">
+  <time class="dt-published" datetime="2021-09-19T15:45:02.000Z" itemprop="datePublished">2021-09-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      git使用要点
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Git使用说明"><a href="#Git使用说明" class="headerlink" title="Git使用说明"></a><strong>Git使用说明</strong></h1><h2 id="git的功能和打开方式"><a href="#git的功能和打开方式" class="headerlink" title="git的功能和打开方式"></a>git的功能和打开方式</h2><p>功能：</p>
+<p>打开方式：</p>
+<h2 id="常见的命令"><a href="#常见的命令" class="headerlink" title="常见的命令"></a>常见的命令</h2><ol>
+<li>sudo apt-get install 软件  //安装软件</li>
+<li>cd XXX  //打开文件所在位置</li>
+<li>ls    //查看当前文件和文件夹</li>
+<li>pwd   //查看当前文件位置</li>
+<li>git </li>
+</ol>
+<h2 id="上传、同步和下载"><a href="#上传、同步和下载" class="headerlink" title="上传、同步和下载"></a>上传、同步和下载</h2><h3 id="上传步骤"><a href="#上传步骤" class="headerlink" title="上传步骤"></a>上传步骤</h3><ol>
+<li>git add &lt;filename&gt;</li>
+<li></li>
+<li></li>
+<li>git commit</li>
+</ol>
+<h3 id="同步步骤"><a href="#同步步骤" class="headerlink" title="同步步骤"></a>同步步骤</h3><ol>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<h3 id="下载步骤"><a href="#下载步骤" class="headerlink" title="下载步骤"></a>下载步骤</h3><ol>
+<li>git clone /path/to/repository</li>
+<li></li>
+<li></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://qiongqionghigh.gitee.io/rookie-blog/2021/09/19/git%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9/" data-id="cktsh739700001sbt045ogfrc" data-title="git使用要点" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/home/wq/blog/2021/09/19/linux%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          linux使用要点
+        
+      </div>
+    </a>
+  
+  
+    <a href="/home/wq/blog/2021/09/19/%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B%E7%AC%94%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">菜鸟教程笔记</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/home/wq/blog/archives/2021/09/">September 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/home/wq/blog/2021/09/20/%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BD%BF%E7%94%A8/">博客的使用</a>
+          </li>
+        
+          <li>
+            <a href="/home/wq/blog/2021/09/19/linux%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9/">linux使用要点</a>
+          </li>
+        
+          <li>
+            <a href="/home/wq/blog/2021/09/19/git%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9/">git使用要点</a>
+          </li>
+        
+          <li>
+            <a href="/home/wq/blog/2021/09/19/%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B%E7%AC%94%E8%AE%B0/">菜鸟教程笔记</a>
+          </li>
+        
+          <li>
+            <a href="/home/wq/blog/2021/09/19/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/home/wq/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/home/wq/blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/home/wq/blog/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/home/wq/blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/home/wq/blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
